@@ -72,8 +72,8 @@ One obvious next step is to use deeper network to reduce the MSE.
 Current CNN model only captures the spatial features from individual frames. 
 One promising direction is to introduce changes to the model to capture temporal features. For instance, we can use 
 two-stream CNNs [2] followed by a fully connected layer, further followed by some LSTM layers and finally a 
-fully-connected layer. One CNN model can be fed t<sup>th</sup> frame and the other CNN model can be fed t+1<sup>th</sup> 
-frame. Using two CNN models in parallel will capture the local-temporal features (somewhat similar to the optical flow) 
+fully-connected layer. Feeding one CNN model t<sup>th</sup> frame and the other CNN model t+1<sup>th</sup> 
+frame will capture the local-temporal features (somewhat similar to the optical flow) 
 and the following LSTM layers will capture the global-temporal features. This approach will especially help with navigating 
 through moving entities on the road, such as 
 cars and humans.
