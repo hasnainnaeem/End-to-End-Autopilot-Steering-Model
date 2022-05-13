@@ -1,6 +1,6 @@
 # End-to-end Learning for Self-driving Cars
 A TensorFlow implementation of paper titled ["end-to-end learning for self-driving cars"](https://arxiv.org/pdf/1604.07316.pdf) 
-[1] with some changes. Built on top of another [open source project by Sully Chen](https://github.com/SullyChen/Autopilot-TensorFlow).
+[1] with some changes. Built on top of another [open-source project by Sully Chen](https://github.com/SullyChen/Autopilot-TensorFlow).
 
 ## Requirements
 - TensorFlow (1.x or 2.x)/TensorFlow GPU (1.x or 2.x)
