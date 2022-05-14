@@ -1,6 +1,6 @@
 # End-to-end Learning for Self-driving Cars
 A TensorFlow implementation of paper titled ["end-to-end learning for self-driving cars"](https://arxiv.org/pdf/1604.07316.pdf) 
-[1] with some changes. Built on top of another [open-source project by Sully Chen](https://github.com/SullyChen/Autopilot-TensorFlow).
+[1] with some changes. 
 
 ## Requirements
 - TensorFlow (1.x or 2.x)/TensorFlow GPU (1.x or 2.x)
@@ -79,8 +79,8 @@ through moving entities on the road, such as
 cars and humans.
 
 ## References
-[1] Bojarski, M., Del Testa, D., Dworakowski, D., Firner, B., Flepp, B., Goyal, P., ... & Zieba, K. 
+- [1] Bojarski, M., Del Testa, D., Dworakowski, D., Firner, B., Flepp, B., Goyal, P., ... & Zieba, K. 
 (2016). End to end learning for self-driving cars. arXiv preprint arXiv:1604.07316.
-
-[2] Weng, X., & Kitani, K. (2019). Learning spatio-temporal features with two-stream deep 3d 
+- [2] Weng, X., & Kitani, K. (2019). Learning spatio-temporal features with two-stream deep 3d 
 cnns for lipreading. arXiv preprint arXiv:1905.02540.
+- Project was built on top of another [open-source project by Sully Chen](https://github.com/SullyChen/Autopilot-TensorFlow).
