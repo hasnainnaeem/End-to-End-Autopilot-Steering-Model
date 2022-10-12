@@ -66,7 +66,7 @@ environmental conditions without introducing any changes to the symmetry of the 
 
 #### 2. Better Architecture
 **Deeper Network:**
-One obvious next step is to use deeper network to reduce the MSE. 
+One obvious next step is to use deeper network to reduce the MSE. Increasing the dataset size is recommended before training.
 
 **Using Two-stream CNNs along with LSTMs/Transformers:**
 Current CNN model only captures the spatial features from individual frames. 
